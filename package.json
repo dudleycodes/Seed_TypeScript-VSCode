@@ -1,20 +1,21 @@
 {
-  "name": "seed",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "",
-  "dependencies": {
-  },
-  "devDependencies": {
-    "ts-node": "^1.7.0",
-    "tslint": "^3.15.1",
-    "typescript": "^2.0.10",
-    "typings": "^2.0.0"
-  }
+    "name": "seed",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "clean": "del-cli ./dist -f; del-cli ./node_modules -f",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "lint": "tslint --config tslint.json \"/src/**/*.ts\""
+    },
+    "keywords": [],
+    "author": "",
+    "license": "",
+    "dependencies": {},
+    "devDependencies": {
+        "ts-node": "^1.7.0",
+        "tslint": "^3.15.1",
+        "typescript": "^2.0.10",
+        "typings": "^2.0.0"
+    }
 }
