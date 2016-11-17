@@ -1,12 +1,18 @@
 {
     "compilerOptions": {
-        "module": "commonjs",
-        "target": "es5",
-        "noImplicitAny": false,
+        "module": "es6",
+        "target": "es6",
+        "noImplicitAny": true,
         "sourceMap": true,
-        "watch": true
+        "watch": true,
+        "charset": "utf8",
+        "newLine": "LF",
+        "removeComments": true,
+        "listFiles": true,
+        "locale": "en-us",
+        "outDir": "dist/"
     },
-    "exlucde": [
+    "exclude": [
         "node_modules"
     ]
 }

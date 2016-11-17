@@ -11,8 +11,7 @@ jspm_packages
 
 
 ### Compilied Output ###
-src/**/*.js
-src/**/*.js.map
+dist/
 
 
 ### Linux Junk ###
