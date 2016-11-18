@@ -3,6 +3,7 @@
         "module": "es6",
         "target": "es6",
         "noImplicitAny": true,
+        "declaration": true,
         "sourceMap": true,
         "watch": true,
         "charset": "utf8",
