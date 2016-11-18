@@ -7,7 +7,7 @@
         "watch": true,
         "charset": "utf8",
         "newLine": "LF",
-        "removeComments": true,
+        "removeComments": false,
         "listFiles": true,
         "locale": "en-us",
         "outDir": "dist/"
