@@ -10,6 +10,7 @@
             true,
             "spaces"
         ],
+        "max-line-length": [true, 140],
         "no-duplicate-variable": true,
         "no-eval": true,
         "no-internal-module": true,
