@@ -6,7 +6,7 @@
     "scripts": {
         "clean": "del-cli ./dist -f; del-cli ./node_modules -f",
         "test": "echo \"Error: no test specified\" && exit 1",
-        "lint": "tslint --config tslint.json \"/src/**/*.ts\""
+        "lint": "tslint --config tslint.json \"src/**/*.ts\""
     },
     "keywords": [],
     "author": "",
